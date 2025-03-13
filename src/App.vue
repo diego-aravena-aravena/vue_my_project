@@ -1,5 +1,10 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import MostrarOcultarElementos from './components/MostrarOcultarElementos.vue';
+import ArrayObjetos from './components/ArrayObjetos.vue';
+import ContadorClick from './components/ContadorClick.vue';
+import Formulario from './components/Formulario.vue';
+import ComponentsPadre from './components/ComponentsPadre.vue';
 </script>
 
 <template>
@@ -12,6 +17,13 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <MostrarOcultarElementos/>
+  <ArrayObjetos/>
+  <ContadorClick/>
+  <br>
+  <Formulario/>
+
+  <ComponentsPadre/>
 </template>
 
 <style scoped>
