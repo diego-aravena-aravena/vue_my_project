@@ -5,6 +5,10 @@ import ArrayObjetos from './components/ArrayObjetos.vue';
 import ContadorClick from './components/ContadorClick.vue';
 import Formulario from './components/Formulario.vue';
 import ComponentsPadre from './components/ComponentsPadre.vue';
+import PlantillaComputed from './components/PlantillaComputed.vue';
+import WatchersApi from './components/WatchersApi.vue'
+import CardComponent from './components/CardComponent.vue';
+import PlayGround from './views/PlayGround.vue';
 </script>
 
 <template>
@@ -16,7 +20,7 @@ import ComponentsPadre from './components/ComponentsPadre.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <!-- <HelloWorld msg="Vite + Vue" />
   <MostrarOcultarElementos/>
   <ArrayObjetos/>
   <ContadorClick/>
@@ -24,6 +28,11 @@ import ComponentsPadre from './components/ComponentsPadre.vue';
   <Formulario/>
 
   <ComponentsPadre/>
+  <PlantillaComputed/>
+<WatchersApi/> -->
+
+<PlayGround/>
+<!-- <CardComponent/> -->
 </template>
 
 <style scoped>
