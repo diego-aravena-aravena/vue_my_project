@@ -21,14 +21,16 @@ defineProps({
     padding: 20px;
     border-radius: 5px;
     background: #0ddc0d;
-    margin: 30px;
-    width: 200px;
+    /* margin: 30px; */
+    width: 250px;
     display: inline-block;
     text-align: center;
+    height: 150px;
   }
 
   .cardWidth {
-    width: 400px;
+    width: 530px !important;
+    background-color: #ddd;
   }
   </style>
   
